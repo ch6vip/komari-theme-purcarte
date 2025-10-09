@@ -4,22 +4,14 @@ const Footer: React.FC = () => {
   return (
     <footer className="purcarte-blur p-2 border-b border-(--accent-a4) inset-shadow-sm inset-shadow-(color:--accent-a4) sticky bottom-0 flex items-center justify-center z-10">
       <p className="flex justify-center text-sm text-secondary-foreground theme-text-shadow whitespace-pre">
-        Powered by{" "}
-        <a
-          href="https://github.com/komari-monitor/komari"
-          target="_blank"
-          rel="noopener noreferrer"
-          className="text-blue-500 hover:text-blue-600 transition-colors">
-          Komari Monitor
-        </a>
-        {" | "}
+        {/* "Powered by Komari Monitor" 部分已被删除 */}
         Theme by{" "}
         <a
-          href="https://github.com/Montia37/komari-theme-purcarte"
+          href="https://jk.0z0.tech/status/all"
           target="_blank"
           rel="noopener noreferrer"
           className="text-blue-500 hover:text-blue-600 transition-colors">
-          PurCarte
+          Uptime Kuma
         </a>
       </p>
     </footer>
